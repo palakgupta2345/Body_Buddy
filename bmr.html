@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMR Calculator</title>
+    <link rel="stylesheet" href="css/bmr.css" />
+    <link rel="stylesheet" href="css/bmi.css" />
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    
+  <div class="container">
+    
+    <h1 class="sect1" id="ex-h1">BMR Calculator</h1>
+    <h2 class="sect2bmi">BMR Calculator</h2>
+  </div>
+    <div class="bmr-calculator">
+      <h2>BMR Calculator</h2>
+      <div class="controls">
+        <form>
+          <h3>Age (10 - 100)</h3>
+          <input type="text" id="age" value="28" />
+
+          <div class="gender">
+            <h3>Gender</h3>
+            <input type="radio" id="male" value="male" name="gender" checked />
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="female" name="gender" />
+            <label for="female">Female</label>
+          </div>
+
+          <div class="height">
+            <h3>Height</h3>
+            <input type="text" id="height" value="18" />
+            <div class="unit">cm</div>
+          </div>
+
+          <div class="weight">
+            <h3>Weight</h3>
+            <input type="text" id="weight" value="35" />
+            <div class="unit">kg</div>
+          </div>
+        </form>
+      </div>
+
+      <div class="result">
+        <button class="calculate-btn">Calculate</button>
+
+        <div class="result-message">
+          <span class="calories">327.5</span> Calories/day
+        </div>
+
+        <div class="error-message">
+          <p>Please enter all the details correctly.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bmr.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

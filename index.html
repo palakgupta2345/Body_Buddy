@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Body Buddy</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css " />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a3f67db698.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <!-----------------------------------------------header section starts---------------------------------------->
+  <header class="header">
+    <a href="#" class="logo">
+      <img src="gym_logo.png" alt="">
+    </a> 
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about us</a>
+      <a href="exercises.html">Exercises</a>
+      <a href="calculators.html">Calculator</a>
+      <a href="#review">reviews</a>
+      <a href="#contact">contact_Us</a>
+    </nav>
+    <div class="icons">
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-solid fa-gift" id="cart-btn"></div>
+      <a href="loginpage.html"><div class="fas fa-solid fa-user" id="cart-btn"></div></a>
+      <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here....">
+      <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+    <div class="cart-items-container">
+
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="https://i.postimg.cc/BvthybNR/cart-item-1.png" alt="">
+        <div class="content">
+          <h3>cart item 01</h3>
+          <div class="price">$15.99/-
+          </div>
+        </div>
+      </div>
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <i class="fa-solid fa-gift"></i>
+        <div class="content">
+          <h3>cart item 02</h3>
+          <div class="price">$15.99/-
+          </div>
+        </div>
+      </div>
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="https://i.postimg.cc/05GCV7Pb/cart-item-3.png" alt="">
+        <div class="content">
+          <h3>cart item 03</h3>
+          <div class="price">$15.99/-
+          </div>
+        </div>
+      </div>
+      <div class="cart-item">
+        <span class="fas fa-times"></span>
+        <img src="https://i.postimg.cc/gkYHQr24/cart-item-4.png" alt="">
+        <div class="content">
+          <h3>cart item 04</h3>
+          <div class="price">$15.99/-
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">checkout now</a>
+    </div>
+  </header>
+  <!-------------------------------------------------header section ends----------------------------------------------->
+
+  <!----------------------------------------------------Home section starts------------------------------------------>
+  <section class="home" id="home">
+    <div class="content">
+        <h3 style="padding-top: 170px;"> <span style="color: #e84837;font-family: Broadway;">Fit</span> <br> Together </h3>
+      <h5>Tailored Fitness, Just for You !!!</h5>
+      <p> Igniting your fitness passion with personalized workouts and expert guidance. Let's conquer your goals together : <b><i>FitTogether, where fitness isn't just a goal—it's a passion.</i></b></p>
+      <a href="#about" class="btn">Explore new horizons</a>
+    </div>
+  </section>
+  <!-----------------------------------------------------Home section ends-------------------------------------------->
+
+  <!------------------------------------------------------About section starts---------------------------------------->
+  <section class="about" id="about">
+    <h1 class="heading">Why to <span>choose us...??</span> </h1>
+    <div class="row">
+      <div class="image">
+        <img src="about_us_side(2).png" alt="about us" style="color: white;">
+      </div>
+      <div class="content">
+        <p>At <b><i>FitTogether</i></b> , fitness is more than just a business—it's our unwavering passion. From the moment you join us, you'll experience a level of dedication and enthusiasm that sets us apart. Our team is comprised of fitness enthusiasts who live and breathe every aspect of a healthy lifestyle. We're not just here to provide a service; we're here to ignite your passion for fitness and empower you to surpass your goals.
+            What sets us apart is our commitment to personalization. We understand that no two fitness journeys are alike, which is why we tailor every workout and program to fit your unique needs, preferences, and goals. Whether you're a seasoned athlete or just starting out, we'll create a plan that challenges and inspires you, pushing you to reach new heights of strength, endurance, and confidence. </p>
+          <div id="myDIV" style="display: none;color: #dfdddd;padding: 1rem 0;line-height: 1.8;font-size: 1.6rem;">But our dedication doesn't stop there. We're with you every step of the way, providing unwavering support, encouragement, and guidance. From expert advice to motivational pep talks, we're here to ensure you stay focused, motivated, and inspired on your journey to success.
+
+            At FitTogether, passion isn't just a buzzword—it's the driving force behind everything we do. When you choose us, you're not just joining a fitness program; you're joining a community of like-minded individuals who share your passion for health, wellness, and self-improvement. Together, we'll conquer obstacles, break through barriers, and celebrate every milestone along the way.</div>
+        <button onclick="myFunction()" class="btn">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <!------------------------------------------------------Highlights section starts------------------------------------------>
+  <section class="journey" id="journey">
+    <h1 class="heading"><span>Our </span>Highlights</h1>
+
+    <div class="row" >
+      <div class="col-md-3">
+          <i class="fa-solid fa-handshake" ></i><br><br>
+          <p>We believe in open communication and clarity. No hidden fees, no gimmicks—honest fitness coaching you can trust.</p>
+      </div>
+      <div class="col-md-3">
+          <i class="fa-solid fa-certificate"></i><br><br>
+          <p>Our trainers are certified professionals with extensive knowledge and experience in fitness coaching.</p>
+      </div>
+      <div class="col-md-3">
+        <i class="fa-solid fa-dumbbell"></i><br><br>
+          <p> we live and breathe fitness.Our team is full of energy, inspiring you to push your limits and enjoy the journey.</p>
+      </div>
+      <div class="col-md-3">
+        <i class="fa-solid fa-bomb"></i><br><br>
+          <p>Our Bombastic Innovative Idea: We break the mold with our cutting-edge approach to fitness.</p>
+      </div>
+  </div>
+
+  </section>
+  
+  <!-------------------------------------------------------Review section starts------------------------------------>
+  <section class="review" id="review">
+    <h1 class="heading">customer's <span>review</span></h1>
+    <div class="box-container">
+
+      <div class="box">
+        <img src="https://i.postimg.cc/SxX4LSCN/quote-img.png" alt="quote" class="quote">
+        <p>FitTogether's personalized approach to fitness coaching has been a game-changer for me! Their tailored workouts and expert guidance have helped me achieve results I never thought possible. The trainers truly understand my goals and preferences, creating a plan that's just right for me. I highly recommend FitTogether to anyone looking for personalized fitness coaching that delivers real results !!!
+        </p>
+        <img src="https://fitnessvolt.com/wp-content/uploads/2021/11/Andrei-Deiu-5-750x933.jpg" alt="Loading" class="nurik">
+        <h3>Siddharth Shukla</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="https://i.postimg.cc/SxX4LSCN/quote-img.png" alt="quote" class="quote">
+        <p>FitTogether's personalized fitness coaching has exceeded my expectations in every way. From the customized workout plans to the expert guidance from their trainers, every aspect of my experience has been top-notch. I appreciate that they take the time to tailor the coaching to my specific goals and preferences, ensuring that I stay motivated and on track. If you're serious about reaching your fitness goals, look no further than FitTogether..!!
+        </p>
+        <img src="https://i.postimg.cc/9XNNdGpZ/ubayd.png" alt="Loading" class="nurik">
+        <h3>Anuj Gupta</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="https://i.postimg.cc/SxX4LSCN/quote-img.png" alt="quote" class="quote">
+        <p>I can't say enough good things about my experience with FitTogether's personalized fitness coaching. The trainers are incredibly knowledgeable and dedicated, and their personalized approach has helped me achieve results I never thought possible. Whether you're a beginner or an experienced athlete, FitTogether has the expertise and resources to help you succeed. I'm grateful for their support and guidance on my fitness journey.
+        </p>
+        <img src="https://image.tensorartassets.com/cdn-cgi/image/w=600,q=85/posts/images/703251700437232942/470e529c-a2a3-4944-b834-479ff833090d.jpg" alt="Loading" class="nurik">
+        <h3>Ananya Reddy</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-------------------------------------------------------Contact us section starts-------------------------------------->
+  <section class="contact" id="contact">
+    <h1 class="heading"> <span>contact</span> us</h1>
+    <div class="row">
+      <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3119.7961349157026!2d68.79793901454372!3d38.5
+        6151057962378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38b5d137ef4b1a19%3A0x324897f0015c7078!2sSadbarg%
+        20Trade%20Center!5e0!3m2!1sen!2sru!4v1644586106859!5m2!1sen!2sru" allowfullscreen="" loading="lazy"></iframe>
+
+      <form action="">
+        <h3>get in touch</h3>
+
+        <div class="inputBox">
+          <span class="fas fa-user"></span>
+          <input type="text" placeholder="name">
+        </div>
+
+        <div class="inputBox">
+          <span class="fas fa-envelope"></span>
+          <input type="email" placeholder="email">
+        </div>
+
+        <div class="inputBox">
+          <span class="fas fa-phone"></span>
+          <input type="number" placeholder="number">
+        </div>
+
+        <input type="submit" value="contact now" class="btn">
+      </form>
+    </div>
+  </section>
+
+  <!-------------------------------------------------------Footer sections ------------------------------------------>
+  <footer>
+    <div class="share">
+      <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a>
+      <a href="https://www.instagram.com/" target="_blank" class="fab fa-instagram"></a>
+      <a href="https://twitter.com/?lang=en" target="_blank" class="fab fa-twitter"></a>
+      <a href="https://www.linkedin.com/" target="_blank" class="fab fa-linkedin"></a>
+      <a href="https://in.pinterest.com/" target="_blank" class="fab fa-pinterest"></a>
+    </div>
+    <div class="links">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#review">review</a>
+      <a href="#contact">contact</a>
+    </div>
+    <div class="credit">created by <span>Tech Troopers</span> /all rights reserved</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
